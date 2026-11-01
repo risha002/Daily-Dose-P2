@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Dose Cafe - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="brand">
+                <img src="images/logo.png" alt="Daily Dose Cafe Logo">
+                <h1>Daily Dose Cafe</h1>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="contact-flex">
+            <!-- Form Block -->
+            <div class="reservation-box">
+                <h3>Make a reservation</h3>
+                <!-- <form action="#" method="POST">-->
+                    <div class="form-group">
+                        <label for="name">Full name:</label>
+                        <input type="text" id="name" required placeholder="Enter your full name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address:</label>
+                        <input type="email" id="email" required placeholder="name@example.com">
+                    </div>
+                    <div class="form-group-row">
+                        <div class="form-group">
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Time:</label>
+                            <input type="time" id="time" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Number of Guests:</label>
+                        <select id="guests">
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="4">4 Guests</option>
+                            <option value="5">5+ Guests</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="requests">Special Requests:</label>
+                        <textarea id="requests" rows="3" placeholder="Any dietary restrictions or seating preferences?"></textarea>
+                    </div>
+                    <div class="form-actions">
+                        <button type="submit" class="btn btn-primary">Submit reservation</button>
+                        <button type="reset" class="btn btn-secondary">Reset form</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Detail Info Block -->
+            <div class="get-in-touch">
+                <h3>Get in Touch!</h3>
+                <p> 
+                    Need a little break? Come visit us here at Darapidap, Candon City,Ilocos Sur and enjoy freshly brewed coffee, delicious treats, and
+                    a cozy space made for relaxing, studying, or spending time with friends. We'd love to have you at Daily Dose!
+                </p>
+                <div class="contact-details">
+                    <p><strong>Address:</strong> Darapidap, Candon City, Ilocos Sur</p>
+                    <p>
+                        <strong>
+                            Email:
+                        </strong>
+                        <a href="mailto:dailydosecafe@gmail.com">dailydosecafe@gmail.com</a>
+                    </p>
+                    <p>
+                        <strong>
+                            Telephone Number:
+                        </strong>
+                        <a href="tel:+639123456789">0912 345 6789</a>
+                    </p>
+                    <p>
+                        <strong>
+                            Facebook:
+                        </strong>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Daily Dose Cafe</a>
+                    </p>
+
+                    <p>
+                        <strong>
+                            Instagram:
+                        </strong>
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">@dailydose</a>
+                    </p>
+                    <p>
+                        <strong>
+                            Explore Candon:
+                        </strong>
+                        <a href="https://candoncity.gov.ph/" target="_blank">Candon City Tourism</a>
+                    </p>
+
+                    <p><strong>Operating hours:</strong> 8:00 AM - 9:00 PM</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>LOCATION</h4>
+            <div class="map-placeholder">
+                  <a href="https://maps.app.goo.gl/fMX3tkyoevieTyMN9?g_st=afm" target="_blank">Darapidap, Candon City, Ilocos Sur</a> 
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Daily Dose Cafe. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
